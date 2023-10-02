@@ -1,0 +1,70 @@
+
+
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+.frm{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 40px; 
+}
+input :hover{
+  background-color: crimson; 
+}
+.fromclass{
+  height: 500px;
+  border: 2px solid red;
+  width: 550px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: darksalmon;
+  border-radius: 20px;
+}
+.fromclass form{
+  margin-left: 20px;
+}
+.fromclass form button{
+  margin-left: 20px;
+}
+.fromclass h1{
+  color: blueviolet;
+  margin-top: 20px;
+}
+button{
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+    </style>
+</head>
+<div class="frm">  
+    <div class="fromclass">
+      <h1>WELCOME SALARY MANEGMENT</h1>
+            <form  method="post" action="/login">
+            <input type="text" placeholder="username" name="username">
+            <input type="password" placeholder="password" name="password">
+            <input type="submit" placeholder="click"><br>
+            </form>
+            <form method="post" action="/Signup">
+                <button>register</button>
+            </form>
+        </div>
+</div>
+</body>
